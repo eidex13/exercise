@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+      <title> Registration </title>
+    </head>
+    <body>
+        <form action="destination_page.php">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname" 
+                   placeholder="First Name"><br>
+        
+            <br>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+          <br>
+          <label for="Password">Password</label>
+            <input type="text" name="password" id="password" 
+                   placeholder="Password"><br>
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+            <br>
+            <label for="Capcha">Are you a Robot ? Select the animal Capybara:</label>
+            <select id="Capcha" name="animals">
+                <option value="Cappybara">Cappybara</option>
+                <option value="Tiger" selected>Tiger</option>
+                <option value="Monkey">Monkey</option>
+            </select>
+            <br>
+            <br>
+
+            <br>
+             <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
