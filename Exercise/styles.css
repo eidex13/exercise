@@ -1,0 +1,23 @@
+*{
+    font-family: 'lemon milk';
+}
+
+div{
+    margin: 5px;
+}
+
+h1{
+    color: #00F;
+}
+
+#fourth span{
+    visibility: hidden;
+}
+
+.right img{
+    height: 300px;
+}
+
+.right p{
+    display: none;
+}
