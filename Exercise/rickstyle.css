@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+
+p{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+ul{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
