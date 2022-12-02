@@ -25,9 +25,13 @@
 
    h1 {
     text-align: center; 
-}
-h1{
     color: #DB0038;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 h2{
